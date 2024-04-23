@@ -1,4 +1,6 @@
+**/.terraform/*
+*.tfstate
+*.tfstate.*
 *.lock.hcl
-*.tfstate*
 .DS_Store
 scratch.txt
