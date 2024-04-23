@@ -15,7 +15,7 @@ Examples of using Wiz Terraform Provider to handle rules with constants and vari
 
 ## Rules to be deployed
 
-### Graph Queries
+### Graph Query Controls
 - Test Control (AWS EC2 Instance Banned Tags)
 
 ### Cloud Configuration Rules (CCRs)
