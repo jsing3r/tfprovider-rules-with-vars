@@ -4,7 +4,7 @@ Examples of using Wiz Terraform Provider to handle rules with constants and vari
 ## Directions
 - Setup the required service account in Wiz.  
 - cd into TF folder
-- Set Wiz service account creditials and initials or something unique to identify your rules in Wiz.  You can set as environment variables (otherwise follow prompts when using terraform commands)
+- Set Wiz service account credentials and initials or something unique to identify your rules in Wiz.  You can set as environment variables (otherwise follow prompts when using terraform commands)
    ```
     export TF_VAR_WIZ_CLIENT_ID="<value>"
     export TF_VAR_WIZ_CLIENT_SECRET="<value>"
@@ -27,4 +27,4 @@ Examples of using Wiz Terraform Provider to handle rules with constants and vari
 
 
 ## Notes
-Rule titles must stay the same to target for updates and to destroy.  If state becomes incosistant you can just cut out the broken rule resource, apply the terraform (to remove broken rule from Wiz), re-paste the rule resource back in and reapply to restore fixed rule.
+Rule titles must stay the same to target for updates and to destroy.  If state becomes inconsistent you can just cut out the broken rule resource, apply the terraform (to remove broken rule from Wiz), re-paste the rule resource back in and reapply to restore fixed rule.
