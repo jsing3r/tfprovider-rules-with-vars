@@ -1,6 +1,0 @@
-*/.terraform
-*.tfstate
-*.tfstate.*
-*.lock.hcl
-.DS_Store
-scratch.txt
